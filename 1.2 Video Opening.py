@@ -4,7 +4,7 @@ import numpy as np
 
 video=cv2.VideoCapture('#Video_name_with_extension') # Video Reading
 
-win_name='my application' # Kernal_Name
+win_name='my application' # Kernel_Name
 
 frames=video.get(cv2.CAP_PROP_FRAME_COUNT) # Total Frames
 
@@ -15,7 +15,7 @@ open=video.isOpened() # if Opened Successfully
 if(open):
     while(video.isOpened()): 
         it,frame=video.read() # Reading frames 
-        if(it==True): # 'it' is a Boolien type
+        if(it==True): # 'it' is a Boolean type
 
             cv2.imshow(win_name, frame) # Show Frames
             frame_count=frame_count+1 # frame Count 
