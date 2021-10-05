@@ -8,7 +8,7 @@ win_name='my application' # Kernal_Name
 
 frames=video.get(cv2.CAP_PROP_FRAME_COUNT) # Total Frames
 
-frames=frames-1; # Indexing Starts from zero
+frames=frames-1 # Indexing Starts from zero
 frame_count=0 # Frame Count
 
 open=video.isOpened() # if Opened Successfully
